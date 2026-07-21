@@ -6,7 +6,7 @@
   <title>Villa Tülüşah</title>
 </head>
 <body style="font-family: Arial; text-align:center; margin-top:100px;">
-  <h1>🌿 Villa Tülüşah</h1>
+  <h1>🌿🌼 Villa Tülüşah</h1>
   <p>Your peaceful getaway near Kuşadası.</p>
 
   <p>
