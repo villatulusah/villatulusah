@@ -7,7 +7,7 @@
 </head>
 <body style="font-family: Arial; text-align:center; margin-top:100px;">
   <h1>🌿🌼 Villa Tülüşah 🌊☀️</h1>
-  <p>Your peaceful getaway near Kuşadası.</p>
+  <p>Your peaceful getaway in Kuşadası.</p>
 
   <p>
     <a href="https://www.airbnb.com.tr/rooms/952109404598090678">Airbnb</a>
