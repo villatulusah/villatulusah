@@ -389,4 +389,282 @@ section h2{
     font-size:34px;
 }
 
+}/* ==========================
+   PREMIUM EFFECTS v1.0
+========================== */
+
+/* Fade In Animation */
+
+@keyframes fadeUp{
+
+0%{
+opacity:0;
+transform:translateY(40px);
+}
+
+100%{
+opacity:1;
+transform:translateY(0);
+}
+
+}
+
+.hero h1{
+
+animation:fadeUp 1s ease;
+
+}
+
+.hero p{
+
+animation:fadeUp 1.3s ease;
+
+}
+
+.buttons{
+
+animation:fadeUp 1.6s ease;
+
+}
+
+/* Cards */
+
+.card{
+
+background:rgba(255,255,255,.65);
+
+backdrop-filter:blur(18px);
+
+border-radius:24px;
+
+padding:35px;
+
+box-shadow:0 25px 60px rgba(0,0,0,.12);
+
+transition:.35s;
+
+}
+
+.card:hover{
+
+transform:translateY(-10px);
+
+box-shadow:0 35px 80px rgba(0,0,0,.18);
+
+}
+
+/* Glass Navigation */
+
+header{
+
+transition:.4s;
+
+}
+
+header:hover{
+
+background:rgba(255,255,255,.22);
+
+}
+
+/* Buttons */
+
+.btn{
+
+letter-spacing:.4px;
+
+font-size:17px;
+
+}
+
+.btn:hover{
+
+filter:brightness(108%);
+
+}
+
+/* Golden Line */
+
+.divider{
+
+width:120px;
+
+height:4px;
+
+background:var(--gold);
+
+margin:25px auto 60px;
+
+border-radius:50px;
+
+}
+
+/* Image Hover */
+
+.gallery-item{
+
+position:relative;
+
+cursor:pointer;
+
+}
+
+.gallery-item::after{
+
+content:"View";
+
+position:absolute;
+
+left:50%;
+
+top:50%;
+
+transform:translate(-50%,-50%);
+
+background:rgba(0,0,0,.65);
+
+color:white;
+
+padding:12px 26px;
+
+border-radius:999px;
+
+opacity:0;
+
+transition:.35s;
+
+font-weight:600;
+
+}
+
+.gallery-item:hover::after{
+
+opacity:1;
+
+}
+
+/* Footer */
+
+footer p{
+
+opacity:.9;
+
+}
+
+footer a{
+
+color:white;
+
+margin:0 12px;
+
+transition:.3s;
+
+}
+
+footer a:hover{
+
+color:var(--gold);
+
+}
+
+/* Scrollbar */
+
+::-webkit-scrollbar{
+
+width:10px;
+
+}
+
+::-webkit-scrollbar-track{
+
+background:#efe9dc;
+
+}
+
+::-webkit-scrollbar-thumb{
+
+background:var(--green);
+
+border-radius:20px;
+
+}
+
+::-webkit-scrollbar-thumb:hover{
+
+background:var(--green-dark);
+
+}
+
+/* Selection */
+
+::selection{
+
+background:var(--gold);
+
+color:white;
+
+}
+
+/* Smooth Appearance */
+
+section{
+
+animation:fadeUp .8s ease;
+
+}
+
+/* Hero Overlay */
+
+.hero::before{
+
+content:"";
+
+position:absolute;
+
+left:0;
+
+top:0;
+
+right:0;
+
+bottom:0;
+
+background:linear-gradient(to bottom,
+rgba(0,0,0,.35),
+rgba(0,0,0,.55));
+
+z-index:0;
+
+}
+
+.hero>*{
+
+position:relative;
+
+z-index:2;
+
+}
+
+/* Luxury Title */
+
+.hero h1{
+
+text-shadow:0 8px 30px rgba(0,0,0,.45);
+
+}
+
+/* Luxury Paragraph */
+
+.hero p{
+
+opacity:.95;
+
+}
+
+/* Premium Footer */
+
+footer{
+
+border-top:5px solid var(--gold);
+
 }
