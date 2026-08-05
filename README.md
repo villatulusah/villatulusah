@@ -22,26 +22,3 @@
   </p>
 </body>
 </html>
-<section id="guide">
-
-<h2>🌴 Free Kuşadası Tourist Guide</h2>
-
-<div class="divider"></div>
-
-<p>
-
-Explore our exclusive guide with hand-picked beaches, restaurants, historical sites, shopping areas and local recommendations around Kuşadası.
-
-</p>
-
-<br>
-
-<a class="btn booking"
-href="pdf/Villa-Tulusah-Turist-Rehberi.pdf"
-target="_blank">
-
-📖 Open Free Guide
-
-</a>
-
-</section>
